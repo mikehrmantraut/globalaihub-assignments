@@ -25,7 +25,7 @@ def studentInformation():
 # Adding all students to dictionary.
 def addStudentInformations():
     # it should be 5 student.
-    for x in range(1,3):
+    for x in range(1,6):
         try:
             studentInformations[f"Student {x}"] = studentInformation()
             x += 1
@@ -42,7 +42,7 @@ meanGradeList = list()
 
 # calculating student averages and appending these grades to a list.
 def calculateAverages():
-    for i in range(1,3):
+    for i in range(1,6):
         a = studentInformations[f"Student {i}"]["Grades"]
         meanGrade = (a[0]*0.3) + (a[1]*0.3) + (a[2]*0.4)
         # to avoid high decimal numbers.
