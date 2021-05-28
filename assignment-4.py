@@ -1,3 +1,8 @@
+"""
+Day 5 - Final Project
+Turkish Ai Hub - Assignment 4
+@author: Mehmet Baran Munar
+"""
 # Question
 class Question:
     def __init__(self, text, choices, answer):
